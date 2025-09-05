@@ -35,7 +35,5 @@ Aplicar conceitos de **autômatos finitos** e **modelagem de estados** em um pro
 - `style.css` → estilos e layout moderno
 - `script.js` → lógica de funcionamento da máquina (saldo, liberação de produtos, histórico e animações)
 
-## Observações
 
-O projeto serve tanto como **simulação prática de uma vending machine** quanto como **exemplo de aplicação de autômatos finitos** em programação web.
 
