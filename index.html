@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vending Machine Moderna</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="machine">
+    <h1>Vending Machine</h1>
+    <div class="display" id="display">Saldo: 0 centavos</div>
+    
+    <div class="produto-selecao">
+        Produto: 
+        <select id="produtoSelect">
+            <option value="30">Produto A (30c)</option>
+            <option value="50">Produto B (50c)</option>
+        </select>
+    </div>
+
+    <div class="buttons">
+        <button onclick="inserirMoeda(5)">+5</button>
+        <button onclick="inserirMoeda(10)">+10</button>
+        <button onclick="inserirMoeda(25)">+25</button>
+    </div>
+
+    <div class="product" id="productMessage"></div>
+    <div class="hist" id="histMoedas">
+        <strong>Histórico de moedas:</strong><br>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
